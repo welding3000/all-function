@@ -24,4 +24,32 @@
 
 
 --------------------------------------------------------------------
+The do...while Loop
+
+// Dentro de una variable almacenamos los dias | en otra contamos desde 0 
+
+    var dia =['lunes','martes','miercole','jueves','viernes']
+    var i = 0 ;
+
+// do | llamamos la sentencita y el incrementp
+
+    do {
+      document.write( dia[i] +'<br />');
+       i ++
+    }
+// while solo damos la orden de i[0] < dia[]; 
+    
+    while( i < dia.length );
+
+      
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
   

@@ -23,6 +23,24 @@
       }
 
 
+El de ... en bucle se utiliza para recorrer las propiedades de un objeto. Como no hemos hablado de objetos, sin embargo, es posible que no se sienten cómodos con este bucle. Pero una vez que entienda cómo se comportan los objetos en JavaScript, se encuentra este bucle muy útil.
+
+Sintaxis
+
+    for (variablename in object){
+       statement or block to execute
+    }
+
+En cada iteración, una propiedad del objeto se asigna a nombredevariable y este bucle continúa hasta que todas las propiedades del objeto que se agoten
+
+    var x = {  a:'adios',  b:'Chao', c:'hola'}
+    var i; 
+
+    for(i in x ){ document.write( x[i] +'<br />') }
+
+
+
+
 --------------------------------------------------------------------
 The do...while Loop
 

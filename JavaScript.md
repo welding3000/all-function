@@ -1,6 +1,6 @@
 # all-function
 # function-javastript
-
+https://www.youtube.com/watch?v=gZpeON_wfQU
 // vamos a ver una serie de comandos para aplicar
 
 // esto sive para cambiar el contenido

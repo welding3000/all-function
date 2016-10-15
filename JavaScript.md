@@ -2,6 +2,7 @@
 # function-javastript
 https://www.youtube.com/watch?v=gZpeON_wfQU
 http://lineadecodigo.com/javascript/insertar-codigo-html-en-una-pagina-web-insertadjacenthtml/
+https://codepad.remoteinterview.io/JHTVCVOQMU
 // vamos a ver una serie de comandos para aplicar
 
 // esto sive para cambiar el contenido

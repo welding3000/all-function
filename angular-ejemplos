@@ -1,0 +1,63 @@
+
+
+<div ng-controller='text'>
+
+  <h3> Cambio de moneda </h3> 
+  
+<p>Si <b>{{pesos}}</b> Pesos es igual a <b>{{dolar}}</b> Dolar  </p>
+ 
+ Enviar-Dolar <input type="number" ng-model="CambioDolar">
+ valor: {{ CambioDolar | currency }} <br>
+  
+Pesos  <input type="number" ng-model="pesos">
+  valor: {{ pesos | currency }} <br/>
+  
+
+<hr>
+ <b> Recibir [{{ CambioDolar * pesos  | currency }}] Pesos  </b>
+  <br>
+  <hr>
+  
+Enviar-Pesos  <input type="number" ng-model="enviar">
+valor: {{ enviar| currency }} <br/>
+  
+Pesos <input type="number" ng-model="pesos">
+valor: {{ pesos | currency }} 
+<hr>  
+ <b> Recibir [{{ enviar / pesos | currency }}] Dolares  </b>
+  
+<hr>  
+  
+</div>
+  
+  
+
+
+
+
+angular.module('box',[])
+  .controller('text',function($scope){
+  	
+    $scope.pesos=650;
+    $scope.dolar=1;
+    // cambio de monedas
+       $scope.enviar=1;
+    
+});
+
+
+
+angular.bootstrap(document,['box'])
+
+
+
+
+
+
+
+
+
+
+
+
+
